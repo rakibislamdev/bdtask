@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+  }
+  nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+  }
+
+  .logo{
+      color: white;
+      line-height: 80px;
+      font-size: 36px;
+      font-weight: bold;
+      padding: 0 100px;
+  }
+
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+
+  nav ul li {
+      display: inline-block;
+      padding: 5px;
+      line-height: 80px;
+  }
+
+  nav ul li a{
+      padding: 5px;
+      color: white;
+  }
+
+  a.active,a:hover{
+    background: #15476d;
+    transition: .5s;
+  }
+
+  #banner{
+    height: 300px;
+    width: 100%;
+  }
+
+  section{
+      height: 600px;
+      width: 100%;
+  }
+
+  section fieldset {
+      padding: 0 10px;
+      width: 50%;
+      height: 100%;
+      float: left;
+  }
+
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+section section2 {
+    float: right;
+    height: 500px;
+    width: 50%;
+    text-align: center;
+}
+
+section2 img {
+    height: 200px;
+    width: 300px;
+}
+
+  footer{
+      height: 80px;
+      width: 100%;
+      background: yellowgreen;
+      text-align: center;
+  }
+
+  #foter{
+      line-height: 80px;
+      color: white;
+      text-decoration: none;
+  }
+
