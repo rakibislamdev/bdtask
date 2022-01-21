@@ -5,15 +5,19 @@
     box-sizing: border-box;
     color: white;
 }
+header{
+  background-image: url("../img/header-background.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+
+}
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 15vh;
-    background-image: url("../img/header-background.PNG");
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .nav-links{
@@ -24,17 +28,39 @@ nav{
 
 .nav-links li{
     list-style: none;
+    display: block;
+    width: 100%;
 }
 
 .nav-links a{
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+}
+.nav-header{
+  text-align: center;
+}
+
+.mobile-menu span{
+width: 15px;
+border: 1px solid #fff;
+margin: 1px;
+display: none;
 }
 
 @media screen and (max-width: 1024px){
     .nav-links{
         width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 901px){
+    .nav-links{
+        display: none;
+    }
+    .mobile-menu span{
+      display: block;
     }
 }
