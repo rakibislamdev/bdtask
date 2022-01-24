@@ -5,6 +5,25 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* button style */
+.button button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background: yellowgreen;
+  border: none;
+  color: white;
+}
+
+.button button a{
+  text-decoration: none;
+  color: white;
+}
+/* button style end */
+
 /* info header */
 .info-header{
   display: flex;
@@ -128,30 +147,31 @@ display: inline-block;
  -ms-border-radius: 0 25px 25px 0 ;
  -o-border-radius: 0 25px 25px 0 ;
 }
+/* logo header area style end */
 
-
+/* header navbar style start */
 .navbar {
-  height: 100px;
+  height: 80px;
   background: black;
   display: flex;
   list-style: none;
   line-height: 80px;
+  padding: 0 10px;
   margin: inherit;
   overflow: hidden;
+  font-weight: bold;
 }
 .nav-item{
   width: 100%;
-  margin-left: 20px;
-
+  text-align: center;
 }
 
 .nav-item a{
   text-decoration: none;
   color: white;
-  padding: 32px 40px;
 }
 
-.nav-item a:hover{
+.nav-item:hover{
   background: yellowgreen;
 }
 
@@ -161,45 +181,38 @@ display: inline-block;
   margin: 1px;
   display: none;
 }
+/* header navbar area end */
 
+/* banner area style start */
 .banner {
-background-image: url("../img/banner.jpg");
-width: 100%;
-height: 480px;
-background-size: cover;
-background-repeat: no-repeat;
-margin-top: -20px;
+  background-image: url("../img/banner.jpg");
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner-text{
-  padding-top: 120px;
+  padding-top: 100px;
   padding-left: 200px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 18px;
 }
 
-.banner-button{
-  padding-left: 200px;
-  font-family: Arial, Helvetica, sans-serif;
+.banner-text h1{
+  font-size: 42px;
 }
 
-.banner-button #btn{
-  background: none;
-  color: white;
-  border: 1px solid white;
-  padding: 5px 15px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+.banner-text p{
+  font-size: 14px;
 }
 
-.banner-button #btn:hover{
-  background: yellowgreen;
+#banner-button{
+  margin-top: 40px;
 }
+/* banner style area end */
+
 /* content */
-
 #product1{
   margin: -40px 200px 0 200px;
 }
@@ -320,7 +333,7 @@ hr{
 }
 
 .products-body{
-  margin-top: 20px;
+  margin: 20px 0;
   display: flex;
 }
 
@@ -346,24 +359,7 @@ hr{
 }
 
 #trending-button{
-  margin: 20px 0;
-}
-
-.button button {
-  padding: 10px 15px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  background: yellowgreen;
-  border: none;
-  color: white;
-}
-
-.button button a{
-  text-decoration: none;
-  color: white;
+  margin: 200px 0;
 }
 
 @media  only screen and (max-width:920px) {
