@@ -67,8 +67,10 @@ body{
   width: auto;
 display: inline-block;
 }
+/* info header style end */
 
-.header-2{
+/*logo header style start */
+.logo-header{
   width: 100%;
   display: flex;
   height: auto;
@@ -77,44 +79,54 @@ display: inline-block;
 
 .head2-item{
   width: 100%;
-  padding: 20px 150px;
+  margin: 5px 24px;
 }
 
-.head2-item a{
-  padding-left: 8px;
+#logo{
+  text-align: center;
+}
+
+#head2-right a {
+  float: left;
+  padding-right: 20px;
 }
 
 .search-box{
   width: 100%;
   position: relative;
   display: flex;
-
 }
 .search-input{
   width: 100%;
   padding: 10px;
-  border: 4px solid #111d5e;
-  border-radius:10px 0 0 10px ;
+  border: 1px solid gainsboro;
+  border-radius:25px 0 0 25px ;
   border-right: none;
   outline: none;
-  font-size: 20px;
-  color: tomato;
+  font-size: 16px;
+  color: ghostwhite;
   background: none;
+  -webkit-border-radius:25px 0 0 25px ;
+  -moz-border-radius:25px 0 0 25px ;
+  -ms-border-radius:25px 0 0 25px ;
+  -o-border-radius:25px 0 0 25px ;
 }
 .search-button{
  text-align: center;
-height: 51px;
-width: 40px;
-outline: none;
-cursor: pointer;
-border: 4px solid #111d5e;
- border-radius: 0 10px 10px 0 ;
-border-left: none;
-background: none;
-font-size: 20px;
-border-left: 4px solid #111d5e;
-
-
+ height: 51px;
+ width: 40px;
+ outline: none;
+ cursor: pointer;
+ border: 1px solid gainsboro;
+ border-radius: 0 25px 25px 0 ;
+ border-left: none;
+ background: none;
+ font-size: 20px;
+ border-left: 1px solid gainsboro;
+ -webkit-border-radius: 0 25px 25px 0 ;
+ -moz-border-radius: 0 25px 25px 0 ;
+ -ms-border-radius: 0 25px 25px 0 ;
+ -o-border-radius: 0 25px 25px 0 ;
 }
 
 
