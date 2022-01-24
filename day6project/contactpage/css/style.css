@@ -10,7 +10,6 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10px 0;
-
 }
 
 nav{
@@ -38,15 +37,68 @@ nav{
     font-weight: bold;
     letter-spacing: 2px;
 }
-.nav-header{
-  text-align: center;
-}
 
 .mobile-menu span{
-width: 15px;
-border: 1px solid #fff;
-margin: 1px;
-display: none;
+    width: 15px;
+    border: 1px solid #fff;
+    margin: 1px;
+    display: none;
+}
+
+.nav-header{
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+/* google map section style */
+.map iframe{
+    width: 100%;
+    height:400px;
+}
+
+.mid-section{
+    width: 100%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.contact-form{
+    height: 400px;
+    margin-top: -100px;
+    margin-bottom: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid gainsboro;
+}
+
+.message-area{
+    width: 60%;
+    float: left;
+    background: #fff;
+    height: 100%;
+    padding: 60px 40px 0 40px;
+}
+
+.message-area h1{
+    color: black;
+}
+
+.message-area input{
+    outline: none;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+
+.contact{
+    width: 40%;
+    height: 100%;
+    float: right;
+    background: greenyellow;
+}
+
+#contact{
+    position: relative;
 }
 
 @media screen and (max-width: 1024px){
