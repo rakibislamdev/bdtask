@@ -212,26 +212,26 @@ display: inline-block;
 }
 /* banner style area end */
 
-/* content */
-#product1{
-  margin: -40px 200px 0 200px;
+/* about us and advertise section style */
+#aboutus-ad{
+  margin: -60px 200px 0 200px;
 }
 
 #product2{
   margin: 0 200px 0 200px;
 }
 
-.c{
+.advertise{
   display: flex;
 }
 
-.c-1{
+.advertise-1{
   height: 220px;
 }
 
-.c_1-text{
+.advertise-text{
   padding: 42px;
-  line-height: 40px;
+  line-height: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600px;
   color: white;
@@ -239,6 +239,7 @@ display: inline-block;
 #advertise-item{
   width: 100%;
   margin: 8px;
+  height: 220px;
   background-image: url("../img/advertise.png");
   background-size: cover;
   background-repeat: no-repeat;
