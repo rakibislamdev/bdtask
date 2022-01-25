@@ -312,7 +312,6 @@ hr{
 }
 
 /* trending product section style start */
-
 .trending-products{
   margin-top: 5px;
   margin-bottom: 5px;
@@ -352,7 +351,7 @@ hr{
 }
 
 #trending-button{
-  margin: 200px 0;
+  margin: 30px 0 60px 0;
 }
 
 @media  only screen and (max-width:920px) {
@@ -362,13 +361,80 @@ hr{
   }
 
 }
-
 /* trending product section style end */
 
+/* heron banner style start */
+.hero-banner{
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/herobanner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
 
+.hero-text{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+}
+
+/* hero banner area style end */
+
+/* most view product style start */
+.mostview-products{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+/* note: most view and trending product section are same so most view section got same design automaticaly */
+/* mostview product style end*/
+
+/* highlight section styled here */
+.highlight{
+  display: flex;
+  margin: 20px 200px;
+}
+
+.highlight-item{
+  width: 100%;
+  height: 220px;
+  margin: 8px;
+}
+
+.highlight-text h5 a{
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+#highlight-1{
+  background-image: url("../img/highlight-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+#highlight-2{
+  background-image: url("../img/highlight-2.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.highlight-text{
+  padding: 30px 0;
+  text-align: center;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400px;
+  color: white;
+}
+
+/* highlight section style end */
 
 /* footer */
-
 .footer{
   background-image: url("../img/footer1.PNG");
   width: 100%;
@@ -410,29 +476,6 @@ hr{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-family: 14px;
-}
-
-.highlight{
-  display: flex;
-  margin: 20px 200px;
-}
-
-.highlight-item{
-  width: 100%;
-  height: 220px;
-  margin: 8px;
-  background-image: url("../img/advertise.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.highlight-text{
-  padding: 30px 0;
-  text-align: center;
-  line-height: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400px;
-  color: white;
 }
 
 .footer-nav{
@@ -492,39 +535,6 @@ hr{
 .last_footer-menu_item{
   width: 100%;
 
-}
-
-.hero-banner{
-  width: 100%;
-  height: 300px;
-  background-image: url("../img/herobanner.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-}
-
-.hero-text{
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 20px;
-}
-
-.hero-button{
-  text-align: center;
-  padding: 20px;
-}
-
-.hero-button button{
-  padding: 10px 15px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  background: yellowgreen;
-  border: none;
-  color: white;
-  cursor: pointer;
 }
 
 
