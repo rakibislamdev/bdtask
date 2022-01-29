@@ -434,6 +434,60 @@ hr{
 
 /* highlight section style end */
 
+/* featured product section styled */
+.featured-product{
+  margin: 10px 200px;
+  display: flex;
+}
+
+.offer-item{
+  width: 100%;
+  margin: 8px;
+}
+
+#offer-banner{
+  background: gainsboro;
+  border: 1px solid gainsboro;
+}
+
+#offer-banner img{
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.offer-products{
+  display: flex;
+}
+
+.offer-product{
+  width: 100%;
+  height: 300px;
+  margin: 0 8px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.offer-product img{
+  width: 100%;
+  height: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: gainsboro;
+}
+
+.offer_img-description{
+  text-align: center;
+  line-height: 8px;
+}
+
+#offer-row2{
+  margin-top: 8px;
+}
 /* footer */
 .footer{
   background-image: url("../img/footer1.PNG");
